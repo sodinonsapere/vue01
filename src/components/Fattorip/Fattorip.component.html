@@ -1,5 +1,11 @@
-
 <section class="fattorip">
-  <h1>fattorip Component</h1>
+<table class="w3-table">
+    <tr>
+      <th colspan=2 class="w3-center"><h1>Scomposizione in fattori primi</h1></th>
+    </tr>
+    <tr>
+      <td class="w3-border"><input type="number" v-model="n" size="11"></td>
+      <td class="w3-right">Quadrato: {{ q }} {{ triplo(n) }} <span v-html="scomp(n)"></span></td>
+    </tr>
+  </table>
 </section>
-
